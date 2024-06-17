@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    color: #ffffff; /* Color del texto blanco para contraste con el fondo */
+}
+
+.container {
+    padding: 20px;
+}
+
+.contacto {
+   color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.contacto img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.contacto .info {
+    flex: 1;
+}
+
+.contacto .info h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+}
+
+.contacto .info p {
+    margin: 0;
+    font-size: 0.9em;
+}
